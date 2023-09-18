@@ -18,7 +18,7 @@ if len(toggle_key) == 1:
         seconds = float(input("Enter seconds: "))
         while True: 
             if clicking: 
-                mouse.click(Button.right, cps)
+                mouse.click(Button.right, cps) # if your mouse button is left, change it to Button.left
             time.sleep(seconds)
 
     def toggle_event(key): 
